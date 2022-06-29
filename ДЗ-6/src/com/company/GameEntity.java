@@ -1,67 +1,40 @@
 package com.company;
 
 public class GameEntity {
-    private int bossHealth;
-    private  int bossDamage;
-    private String bossDefenceType;
-    private int heroHealth;
-    private int heroDamage;
-    private String heroDefenceType;
+    private int damage;
+    private String defenceType;
+    private int health;
+    private int attack;
 
-    public GameEntity(int bossHealth, int bossDamage, String bossDefenceType, int heroHealth, int heroDamage, String heroDefenceType) {
-        this.bossHealth = bossHealth;
-        this.bossDamage = bossDamage;
-        this.bossDefenceType = bossDefenceType;
-        this.heroHealth = heroHealth;
-        this.heroDamage = heroDamage;
-        this.heroDefenceType = heroDefenceType;
+    public int getDamage() {
+        return damage;
     }
 
-    public int getBossHealth() {
-        return bossHealth;
+    public void setDamage(int damage) {
+        this.damage = damage;
     }
 
-    public void setBossHealth(int bossHealth) {
-        this.bossHealth = bossHealth;
+    public String getDefenceType() {
+        return defenceType;
     }
 
-    public int getBossDamage() {
-        return bossDamage;
+    public void setDefenceType(String defenceType) {
+        this.defenceType = defenceType;
     }
 
-    public void setBossDamage(int bossDamage) {
-        this.bossDamage = bossDamage;
+    public int getHealth() {
+        return health;
     }
 
-    public String getBossDefenceType() {
-        return bossDefenceType;
+    public void setHealth(int health) {
+        this.health = health;
     }
 
-    public void setBossDefenceType(String bossDefenceType) {
-        this.bossDefenceType = bossDefenceType;
+    public int getAttack() {
+        return attack;
     }
 
-    public int getHeroHealth() {
-        return heroHealth;
-    }
-
-    public void setHeroHealth(int heroHealth) {
-        this.heroHealth = heroHealth;
-    }
-
-    public int getHeroDamage() {
-        return heroDamage;
-    }
-
-    public void setHeroDamage(int heroDamage) {
-        this.heroDamage = heroDamage;
-    }
-
-    public String getHeroDefenceType() {
-        return heroDefenceType;
-    }
-
-    public void setHeroDefenceType(String heroDefenceType) {
-        this.heroDefenceType = heroDefenceType;
+    public void setAttack(int attack) {
+        this.attack = attack;
     }
 }

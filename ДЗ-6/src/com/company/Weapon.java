@@ -4,11 +4,6 @@ public class Weapon {
     private String typeWeapon;
     private String nameWeapon;
 
-    public Weapon(String typeWeapon, String nameWeapon) {
-        this.typeWeapon = typeWeapon;
-        this.nameWeapon = nameWeapon;
-    }
-
     public String getTypeWeapon() {
         return typeWeapon;
     }
