@@ -37,4 +37,7 @@ public class GameEntity {
     public void setAttack(int attack) {
         this.attack = attack;
     }
+    public String printInfo(){
+        return this.damage + this.defenceType + this.health+ this.attack;
+    }
 }
